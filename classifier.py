@@ -5,7 +5,6 @@ import os
 import matplotlib.pyplot as plt
 import utilities as utils
 from sklearn.model_selection import KFold
-from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 
