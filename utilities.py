@@ -1,10 +1,8 @@
 import numpy as np
-#from sklearn.metrics import pairwise_distances;
 from sklearn.manifold import MDS
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
-
 
 def read_fasta(file_path) -> list:
     sequences = []
